@@ -11,5 +11,5 @@ jobs:
       ubuntu-latest
     steps:
       - run: pip install pylint
-      - run: pylint app.py
+      - run: pylint $(git ls-files '*.py')
     
