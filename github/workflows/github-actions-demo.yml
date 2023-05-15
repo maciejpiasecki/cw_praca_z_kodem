@@ -3,7 +3,6 @@ jobs:
     script:
       - python --version
 
-jobs:
   - name: Test with Pylint
     script:
       - pip install pylint
