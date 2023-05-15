@@ -1,0 +1,8 @@
+name: demo
+on: [push]
+jobs:
+  check-version:
+    runs-on: 
+      ubuntu-latest
+    steps:
+      - run: python --version
