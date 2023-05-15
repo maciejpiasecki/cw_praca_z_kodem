@@ -1,0 +1,10 @@
+jobs:
+  - name: Display Python Version
+    script:
+      - python --version
+
+jobs:
+  - name: Test with Pylint
+    script:
+      - pip install pylint
+      - pylint app.py
