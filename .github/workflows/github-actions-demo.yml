@@ -6,3 +6,10 @@ jobs:
       ubuntu-latest
     steps:
       - run: python --version
+  check-pylint:
+    runs-on: 
+      ubuntu-latest
+    steps:
+      - run: pip install pylint
+      - run: pylint app.py
+    
