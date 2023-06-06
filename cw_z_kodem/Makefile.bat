@@ -1,8 +1,6 @@
-install:
-    pip install -r requirements.txt
 
-run:
-    flask run
+pip install -r requirements.txt
+ flask run
+python -m flask run
 
-run_alt:
-    python -m flask run
+
