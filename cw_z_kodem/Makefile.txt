@@ -6,4 +6,3 @@ run:
 
 run_alt:
     python -m flask run
-	
